@@ -3,7 +3,7 @@
 <head>
     <script>
         // Immediate check to redirect authenticated users
-        if (localStorage.getItem('mvz_token') === 'MVZ-PRO-2026') {
+        if (localStorage.getItem('mvz_token') === '#MVZ01') {
             window.location.href = 'dashboard.html';
         }
     </script>
@@ -44,7 +44,7 @@
                         <input 
                             type="text" 
                             id="tokenInput" 
-                            placeholder="Insira seu token (ex: MVZ-PRO-2026)" 
+                            placeholder="Digite seu token de acesso (ex: #MVZ01)" 
                             required 
                             autocomplete="off"
                             spellcheck="false"
@@ -92,8 +92,8 @@
             
             const enteredToken = tokenInput.value.trim();
 
-            // Validate token case-insensitively
-            if (enteredToken.toUpperCase() === 'MVZ-PRO-2026') {
+            // Validate token exactly
+            if (enteredToken === '#MVZ01') {
                 // Success
                 loginBtn.classList.add('loading');
                 loginBtn.disabled = true;
@@ -102,7 +102,7 @@
                 loginCard.classList.add('success-fade');
                 
                 // Save session in local storage
-                localStorage.setItem('mvz_token', 'MVZ-PRO-2026');
+                localStorage.setItem('mvz_token', '#MVZ01');
                 
                 // Redirect after short fade transition
                 setTimeout(() => {
