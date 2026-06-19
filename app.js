@@ -506,6 +506,285 @@ const promptsData = [
             "videoUrl": "https://i.imgur.com/kdWK0Ye.mp4",
             "thumbnailUrl": "https://i.imgur.com/kdWK0Ye.jpg",
             "youtubeCreate": true
+        },
+    {
+            "id": "prompt-55",
+            "title": "NOVO PROMPT 55",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-56",
+            "title": "NOVO PROMPT 56",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-57",
+            "title": "NOVO PROMPT 57",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-58",
+            "title": "NOVO PROMPT 58",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-59",
+            "title": "NOVO PROMPT 59",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-60",
+            "title": "NOVO PROMPT 60",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-61",
+            "title": "NOVO PROMPT 61",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-62",
+            "title": "NOVO PROMPT 62",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-63",
+            "title": "NOVO PROMPT 63",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-64",
+            "title": "NOVO PROMPT 64",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-65",
+            "title": "NOVO PROMPT 65",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-66",
+            "title": "NOVO PROMPT 66",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-67",
+            "title": "NOVO PROMPT 67",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-68",
+            "title": "NOVO PROMPT 68",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-69",
+            "title": "NOVO PROMPT 69",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-70",
+            "title": "NOVO PROMPT 70",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-71",
+            "title": "NOVO PROMPT 71",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-72",
+            "title": "NOVO PROMPT 72",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-73",
+            "title": "NOVO PROMPT 73",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-74",
+            "title": "NOVO PROMPT 74",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-75",
+            "title": "NOVO PROMPT 75",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-76",
+            "title": "NOVO PROMPT 76",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-77",
+            "title": "NOVO PROMPT 77",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-78",
+            "title": "NOVO PROMPT 78",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-79",
+            "title": "NOVO PROMPT 79",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-80",
+            "title": "NOVO PROMPT 80",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-81",
+            "title": "NOVO PROMPT 81",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-82",
+            "title": "NOVO PROMPT 82",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-83",
+            "title": "NOVO PROMPT 83",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-84",
+            "title": "NOVO PROMPT 84",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+        },
+    {
+            "id": "prompt-85",
+            "title": "NOVO PROMPT 85",
+            "category": "selfie",
+            "desc": "Aguardando prompt e mídia...",
+            "promptText": "Aguardando o prompt do usuário...",
+            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
+            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
         }
 ];
 
