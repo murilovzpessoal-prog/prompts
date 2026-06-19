@@ -509,84 +509,84 @@ const promptsData = [
         },
     {
             "id": "prompt-55",
-            "title": "NOVO PROMPT 55",
+            "title": "SELFIE EM QUARTO DE HOTEL",
             "category": "selfie",
-            "desc": "Aguardando prompt e mídia...",
-            "promptText": "Aguardando o prompt do usuário...",
-            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
-            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+            "desc": "Selfie realista de plano médio em quarto de hotel, vestindo top cropped halter verde-oliva com colar de flor.",
+            "promptText": "A medium close-up selfie of a young woman with long, straight, center-parted dark brown hair and olive skin. She has thick dark eyebrows, soft pink blush, and glossy dark brown lipstick, looking directly into the camera with a neutral, calm expression. She is wearing a fitted, ribbed olive green halter-neck crop top and a delicate silver necklace with a flower-shaped pendant. A dark brown leather shoulder bag strap is visible on her left shoulder. On her left upper arm, there is a tattoo of two butterflies, and a script tattoo is visible on her left forearm. She is wearing light-wash denim jeans. The background is a hotel room with a television mounted on the wall showing a streaming service interface, a black desk with a white landline phone, and a hallway door in the back. The lighting is soft and ambient, casting gentle shadows. The image has a sharp focus on the subject, photorealistic, high detail.",
+            "videoUrl": "https://zayraai.com/images/prompts/prompt-ai-influencer-olive-halter-hotel.jpg",
+            "thumbnailUrl": "https://zayraai.com/images/prompts/prompt-ai-influencer-olive-halter-hotel.jpg"
         },
     {
             "id": "prompt-56",
-            "title": "NOVO PROMPT 56",
+            "title": "SELFIE NO ESPELHO - CORSET TROPICAL",
             "category": "selfie",
-            "desc": "Aguardando prompt e mídia...",
-            "promptText": "Aguardando o prompt do usuário...",
-            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
-            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+            "desc": "Mirror selfie estilo TikTok/Instagram em quarto com corset verde tropical vibrante e capinha de flores.",
+            "promptText": "{\n  \"meta\": {\n    \"aspect_ratio\": \"9:16\",\n    \"quality\": \"ultra_photorealistic\",\n    \"resolution\": \"8k\",\n    \"camera\": \"câmera frontal do iPhone 15 Pro Max\",\n    \"lens\": \"24mm grande angular\",\n    \"style\": \"realismo de câmera de iPhone, não de estúdio, não profissional, textura natural visível\"\n  },\n  \"character_lock\": {\n    \"identity_source\": \"\",\n    \"face_identity\": [\n      \"rosto oval, maxilar bem definido e contornado, nariz reto com ponta levemente empinada, lábios cheios e bem delineados com gloss natural, olhos castanhos amendoados com delineado gatinho escuro, sobrancelhas arqueadas e preenchidas, olhar sedutor e confiante\"\n    ],\n    \"regras_de_aparencia\": {\n      \"descricao_geral\": \"cabelo longo liso castanho escuro com mechas frontais loiras (money piece) contornando o rosto, pele com tom bronzeado natural, marcas de biquíni de bronzeamento bem evidentes no colo, textura de pele suave com leve oleosidade natural na zona T\",\n      \"detalhes_extras\": \"piercing de argola fino no lado inferior direito do lábio, tatuagens escuras complexas visíveis no antebraço direito\"\n    }\n  },\n  \"cena\": {\n    \"local\": \"quarto ou closet com espelho de parede\",\n    \"ambiente\": [\n      \"porta ou lateral de armário branco à esquerda\",\n      \"monitor de computador emitindo luz azul ao fundo à direita\",\n      \"ambiente organizado e com pouca luz ambiente\"\n    ],\n    \"atmosfera\": \"casual, vaidosa, estética de rede social (TikTok/Instagram)\"\n  },\n  \"iluminacao\": {\n    \"tipo\": \"iluminação artificial de ambiente interno\",\n    \"luz_principal\": \"luz frontal difusa vindo possivelmente do teto ou frente do espelho, iluminando o rosto e destacando o colo\",\n    \"luz_de_preenchimento\": \"sombras marcadas abaixo do maxilar e nas laterais do corpo\",\n    \"contraste\": \"contraste médio-alto\",\n    \"evitar\": [\n      \"iluminação de estúdio\",\n      \"ring light artificial\",\n      \"aparência profissional\",\n      \"tons quentes/laranja\",\n      \"flash estourado\"\n    ]\n  },\n  \"perspectiva_da_camera\": {\n    \"pov\": \"selfie no espelho (mirror selfie)\",\n    \"angulo\": \"frontal reto, altura do peito\",\n    \"distancia\": \"plano médio, cortando na altura da cintura\",\n    \"visibilidade_do_celular\": \"celular visível, segurado pela mão direita no nível do ombro, com capinha branca decorada com desenhos florais pretos e detalhes em rosa\"\n  },\n  \"assunto\": {\n    \"genero\": \"feminino\",\n    \"idade\": \"adulto (21+)\",\n    \"vibe\": \"influenciadora tropical, estilosa, urbana\",\n    \"textura_pele\": \"pele maquiada mas com textura realista, leve brilho natural de oleosidade nas bochechas e nariz\",\n    \"expressao\": {\n      \"olhos\": \"olhando fixamente para o reflexo da tela do celular\",\n      \"boca\": \"fechada, relaxada\",\n      \"emocao\": \"neutra, focada na pose\"\n    },\n    \"pose\": {\n      \"posicao\": \"em pé, tronco de frente para o espelho\",\n      \"apoio\": \"sem apoio visível, postura ereta\",\n      \"mao\": \"mão direita segurando o celular mostrando unhas amendoadas com esmalte escuro e vários anéis prateados, braço esquerdo abaixado e parcialmente fora do quadro\"\n    },\n    \"roupa\": {\n      \"blusa\": {\n        \"tipo\": \"vestido ou blusa tipo corset com alças finas\",\n        \"caimento\": \"justo ao corpo, decote coração\",\n        \"detalhes\": \"tecido liso e acetinado de cor verde vibrante com estampa tropical contendo bananas amarelas, folhas e uma arara verde e roxa\"\n      },\n      \"extra\": [\n        \"duas correntes prateadas finas no pescoço (uma com pingente de coração, outra com medalha redonda)\",\n        \"relógio prateado e pulseiras finas no pulso esquerdo\",\n        \"bolsa preta com alça de corrente pendurada no ombro esquerdo\"\n      ]\n    }\n  },\n  \"qualidade_da_imagem\": {\n    \"foco\": \"foco cravado no rosto da modelo e no celular\",\n    \"granulacao\": \"ruído visível em baixa luminosidade\",\n    \"nitidez\": \"NÃO extremamente nítida, mais lo-fi\",\n    \"realismo\": \"parece uma selfie real de iPhone postada online\",\n    \"artefatos_de_sensor\": \"leve perda de definição nas áreas escuras do fundo\",\n    \"distorcao_de_lente\": \"barrel distortion leve de 24mm, esticando levemente as bordas\",\n    \"pos_processamento\": \"nitidez artificial (oversharpening) típica de algoritmo iOS\"\n  }\n}",
+            "videoUrl": "https://zayraai.com/images/prompts/prompt-ai-influencer-tropical-corset-mirror.jpg",
+            "thumbnailUrl": "https://zayraai.com/images/prompts/prompt-ai-influencer-tropical-corset-mirror.jpg"
         },
     {
             "id": "prompt-57",
-            "title": "NOVO PROMPT 57",
+            "title": "MIRROR SELFIE - BANHEIRO BEGE",
             "category": "selfie",
-            "desc": "Aguardando prompt e mídia...",
-            "promptText": "Aguardando o prompt do usuário...",
-            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
-            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+            "desc": "Selfie casual de espelho em banheiro moderno, com biquinho leve, calça cinza e top sem alças.",
+            "promptText": "{\n  \"meta\": {\n    \"aspect_ratio\": \"9:16\",\n    \"quality\": \"ultra_photorealistic\",\n    \"resolution\": \"8k\",\n    \"camera\": \"câmera frontal do iPhone 15 Pro Max\",\n    \"lens\": \"24mm grande angular\",\n    \"style\": \"realismo de selfie do iPhone, não de estúdio, não profissional, textura natural visível\"\n  },\n  \"cena\": {\n    \"local\": \"Banheiro moderno com revestimento bege\",\n    \"ambiente\": [\n      \"Box de vidro com chuveiro de teto ao fundo\",\n      \"Frascos de amenities fixados na parede à esquerda\",\n      \"Vaso sanitário branco com tampa aberta visível no canto inferior direito\",\n      \"Limpo e organizado\"\n    ],\n    \"atmosfera\": \"Casual, selfie cotidiana em ambiente doméstico ou hotel\"\n  },\n  \"iluminação\": {\n    \"tipo\": \"Luz artificial de teto de banheiro\",\n    \"luz principal\": \"Luz zenital criando sombras suaves sob o queixo e clavícula\",\n    \"luz de preenchimento\": \"Reflexo difuso nas paredes bege, luz suave sem flash direto\",\n    \"contraste\": \"Médio, realçando a profundidade do cabelo preto\"\n  },\n  \"perspectiva_da_câmera\": {\n    \"pov\": \"Selfie no espelho (Mirror Selfie)\",\n    \"ângulo\": \"Altura do peito, levemente inclinado\",\n    \"distância\": \"Plano médio (do quadril para cima)\",\n    \"visibilidade_do_celular\": \"iPhone preto com capa de corações vermelhos segurado pela mão esquerda\"\n  },\n  \"assunto\": {\n    \"gênero\": \"Feminino\",\n    \"idade\": \"adulto (21+)\",\n    \"vibe\": \"Urbana, casual, jovem\",\n    \"expressão\": {\n      \"olhos\": \"Olhando diretamente para o próprio reflexo/tela do celular\",\n      \"boca\": \"Fazendo biquinho (duckface) leve\",\n      \"emoção\": \"Descontraída, confiante\"\n    },\n    \"pose\": {\n      \"position\": \"Em pé, corpo levemente inclinado para frente\",\n      \"mão\": \"Mão esquerda segurando o celular\"\n    },\n    \"roupa\": {\n      \"blusa\": {\n        \"tipo\": \"Top sem alças (tubinho)\",\n        \"caimento\": \"Ajustado ao corpo\",\n        \"detalhes\": \"Tecido preto fosco liso\"\n      },\n      \"extra\": [\n        \"Calça jeans cinza estonada com botão metálico visível\",\n        \"Colar fino com pingente delicado\",\n        \"Piercing pequeno no nariz\"\n      ]\n    }\n  },\n  \"qualidade_da_imagem\": {\n    \"foco\": \"Foco cravado no plano do espelho\",\n    \"granulação\": \"ruído visível em baixa luminosidade\",\n    \"realismo\": \"parece uma selfie real de iPhone postada online\",\n    \"artefatos_de_sensor\": \"Leve reflexo de luz no topo do espelho vindo da lâmpada\",\n    \"distorcao_de_lente\": \"barrel distortion leve de 24mm\"\n  }\n}",
+            "videoUrl": "https://zayraai.com/images/prompts/prompt-ai-influencer-20.webp",
+            "thumbnailUrl": "https://zayraai.com/images/prompts/prompt-ai-influencer-20.webp"
         },
     {
             "id": "prompt-58",
-            "title": "NOVO PROMPT 58",
+            "title": "CLOSE-UP EXTREMO - TOUCA DE PELE",
             "category": "selfie",
-            "desc": "Aguardando prompt e mídia...",
-            "promptText": "Aguardando o prompt do usuário...",
-            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
-            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+            "desc": "Selfie ultra aproximada de rosto apoiado na mão, usando touca preta de pele em cozinha residencial.",
+            "promptText": "EXTREME ultra close-up smartphone selfie, EXACT same camera angle and distance as the reference image. Camera is positioned VERY close to the face (approximately 15–18 cm), slightly BELOW eye level and tilted upward. The perspective exaggerates the nose and lips naturally, exactly like a real front-facing phone camera. The frame is tightly cropped: the top of the black fur hat is visible, eyebrows fully visible, eyes partially relaxed and half-open, nose centered and dominant, lips fully visible, and the chin partially cropped by the bottom edge of the frame. NO additional headroom. NO zooming out. NO reframing. The subject is resting her face on her LEFT hand. The palm presses into the cheek, slightly deforming the skin naturally. Fingers are vertical along the cheek. Fingernails are almond-shaped, medium length, painted glossy deep red. Lips are full, soft pink, slightly glossy, relaxed and closed. Lip shape and angle must remain neutral, no smile, no tension. Visible natural lip lines and moisture. Nose is close to the camera with visible nostrils due to the upward angle. Natural skin shine on the nose tip. Skin is COMPLETELY natural: visible pores, freckles across nose and cheeks, slight redness, uneven tone, no smoothing, no beauty filters, no retouching. Eyes are relaxed, looking slightly downward toward the camera. Eyelashes are natural, eyebrows thick and natural with visible individual hairs. Hair is straight blonde with darker roots, visible on both sides of the face, falling naturally. A dense black fur hat frames the forehead closely, touching near the eyebrows, with visible individual fur strands. Lighting is soft indoor ambient daylight, neutral temperature, coming from above and slightly to the side. No dramatic shadows, no studio lighting. Background is an indoor kitchen environment, softly out of focus. Light-colored wall texture, refrigerator visible on the right side. DO NOT beautify. DO NOT correct proportions. DO NOT adjust symmetry. No logos, no text, no watermarks, no UI icons.",
+            "videoUrl": "https://zayraai.com/images/prompts/prompt-ai-influencer-21.webp",
+            "thumbnailUrl": "https://zayraai.com/images/prompts/prompt-ai-influencer-21.webp"
         },
     {
             "id": "prompt-59",
-            "title": "NOVO PROMPT 59",
+            "title": "SELFIE NO INTERIOR DO VEÍCULO",
             "category": "selfie",
-            "desc": "Aguardando prompt e mídia...",
-            "promptText": "Aguardando o prompt do usuário...",
-            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
-            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+            "desc": "Selfie de close-up frontal em interior de carro com luz natural suave, vestindo regata branca canelada.",
+            "promptText": "Selfie ultra realista de jovem adulta brasileira, 19 anos, sentada no interior de um veículo, orientação frontal para a câmera, capturada com câmera frontal de smartphone. Expressão neutra, lábios fechados levemente projetados, olhar direto para a lente, calma sem exagero expressivo. Tom de pele claro, textura real com poros visíveis, sardas distribuídas pelo nariz e bochechas, acabamento natural sem aparência plastificada. Cabelo loiro, longo, partição central, liso com leve ondulação natural, solto sem styling elaborado. Maquiagem leve: base ou corretivo suave com acabamento natural, máscara de cílios evidente, definição sutil nos olhos, blush discreto, lábios com produto nude ou gloss transparente. Vestindo regata branca de algodão canelado, estilo casual. Colar de corrente fina dourada com pingente pequeno e discreto. Ambiente: interior de veículo com encosto de banco, teto do carro e janela lateral visíveis, situação cotidiana sem preparação de cenário. Iluminação natural lateral/frontal suave, difusa, sombras leves e realistas na pele. Câmera frontal de smartphone, estilo UGC nativo, ângulo ligeiramente abaixo da linha dos olhos, enquadramento close-up do peito para cima, proporção vertical 9:16, nitidez alta no rosto sem desfoque artificial. Sem filtros, contraste natural, saturação equilibrada, tratamento mínimo preservando textura real. Alto nível de autenticidade UGC: imperfeições naturais visíveis, iluminação não controlada, ambiente cotidiano, ausência de pose publicitária.",
+            "videoUrl": "https://zayraai.com/images/prompts/prompt-ai-influencer-25.webp",
+            "thumbnailUrl": "https://zayraai.com/images/prompts/prompt-ai-influencer-25.webp"
         },
     {
             "id": "prompt-60",
-            "title": "NOVO PROMPT 60",
+            "title": "SELFIE CASUAL NA PRAIA",
             "category": "selfie",
-            "desc": "Aguardando prompt e mídia...",
-            "promptText": "Aguardando o prompt do usuário...",
-            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
-            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+            "desc": "Estética espontânea UGC na praia sob o sol de verão, cabelo ondulado ao vento e biquíni azul-turquesa.",
+            "promptText": "Mulher jovem realizando selfie casual ao ar livre em ambiente de praia, com o rosto apoiado sobre a mão, transmitindo estética espontânea e natural típica de UGC. Jovem adulta, expressão relaxada, leve sorriso neutro, olhos parcialmente semicerrados devido à incidência direta de luz solar. Cabelo castanho, longo, ondulado natural, com leve frizz e desorganização causada pela brisa marítima. Top de biquíni verde azulado, modelo simples, alças finas, sem estampas. Maquiagem mínima com acabamento natural, pele com brilho de luz solar, blush suave e lábios em tom neutro. Argolas pequenas em metal dourado, colar fino dourado, pulseira dourada com pequenos pingentes. Estética de câmera frontal de smartphone, ângulo levemente baixo, câmera próxima ao rosto. Close-up do tronco superior até a cabeça, enquadramento vertical 9:16 com sujeito levemente descentralizado. Foco nítido, luz natural intensa, textura de pele visível e realista, sem suavização excessiva. Ambiente de praia próximo à linha do mar, céu azul limpo, mar visível ao fundo, linha do horizonte natural. Dia ensolarado de verão, sensação de tranquilidade e informalidade. Iluminação natural direta do sol, com realces fortes e sombras suaves.",
+            "videoUrl": "https://zayraai.com/images/prompts/prompt-ai-influencer-27.webp",
+            "thumbnailUrl": "https://zayraai.com/images/prompts/prompt-ai-influencer-27.webp"
         },
     {
             "id": "prompt-61",
-            "title": "NOVO PROMPT 61",
+            "title": "STORIES DE INSTAGRAM COM REGATA BRASIL",
             "category": "selfie",
-            "desc": "Aguardando prompt e mídia...",
-            "promptText": "Aguardando o prompt do usuário...",
-            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
-            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+            "desc": "Selfie vertical realista estilo Stories de Instagram, com leve ruído, vestindo regata verde da bandeira nacional.",
+            "promptText": "9:16 Ultra-realistic, hand-taken vertical selfie of a 21-year-old blonde woman in a relaxed pose, captured in the authentic style of Instagram Stories. Slight motion blur, smooth texture and low resolution, warm indoor lighting. Close-up vertical selfie filling most of the Stories frame, camera very close to the face, imperfect angle of a hand-taken photo. She smiles with a relaxed and confident expression, direct eye contact with the camera. Instagram Stories realism - slight exposure variation, shallow depth of field, subtle grain, slightly softened iPhone edges, no cinematic polish. Natural, loose hair color or hairstyle. Minimal or optional makeup. Delicate gold rings on her fingers, shoulders framed by a green tank top in the colors of the Brazilian flag. Neutral inner background, softly blurred. No text on screen, no stickers, just the selfie in storyboard style.",
+            "videoUrl": "https://zayraai.com/images/prompts/prompt-ai-influencer-28.webp",
+            "thumbnailUrl": "https://zayraai.com/images/prompts/prompt-ai-influencer-28.webp"
         },
     {
             "id": "prompt-62",
-            "title": "NOVO PROMPT 62",
+            "title": "STORIES CASUAL EM FAZENDA BRASILEIRA",
             "category": "selfie",
-            "desc": "Aguardando prompt e mídia...",
-            "promptText": "Aguardando o prompt do usuário...",
-            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
-            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+            "desc": "Selfie autêntica ao ar livre em fazenda com coque no cabelo e regata de alça branca.",
+            "promptText": "Ultra-realistic, hand-held vertical selfie of a 21-year-old blonde woman in a relaxed pose, in the authentic style of Instagram Stories. Slight motion blur, smooth texture and low resolution, natural lighting, daylight. Close-up vertical selfie filling most of the Stories frame, camera very close to the face, imperfect angle of a hand-taken photo. She smiles with a relaxed and confident expression, direct eye contact with the camera. Instagram Stories realism - slight variation in exposure, shallow depth of field, subtle grain, edges slightly softened by the iPhone, no cinematic retouching. Her face is slim and symmetrical, like a model's, her teeth are white and aligned, her skin is clear, youthful and attractive; Her hair is tied up in a bun. No makeup. The scene takes place in an open-air setting, like a typical Brazilian farm, a farm with banana trees, chickens, plenty of land, trees, and vegetation all around. Audio: The woman brings the camera close to her face and says in Brazilian Portuguese: \"É difícil de acreditar que eu não sou real né? Mas isso é porque eu sou linda, eu entendo!\". After the first sentence, the woman laughs naturally. After the laugh, the woman speaks again: \"O passo a passo pra gerar vídeos assim está no link, só clicar!\". Shoulders framed by a white tank top with thin straps. Neutral and slightly blurred background. No text on the screen, no stickers, just the selfie in storyboard style.",
+            "videoUrl": "https://zayraai.com/images/prompts/prompt-ai-influencer-29.webp",
+            "thumbnailUrl": "https://zayraai.com/images/prompts/prompt-ai-influencer-29.webp"
         },
     {
             "id": "prompt-63",
-            "title": "NOVO PROMPT 63",
+            "title": "CLOSE-UP INFLUENCER COM LAPELA DJI",
             "category": "selfie",
-            "desc": "Aguardando prompt e mídia...",
-            "promptText": "Aguardando o prompt do usuário...",
-            "videoUrl": "https://i.imgur.com/LBvGz65.mp4",
-            "thumbnailUrl": "https://i.imgur.com/LBvGz65.jpg"
+            "desc": "Close-up super nítido de modelo loira vestindo regata Prada com microfone de lapela DJI.",
+            "promptText": "Ultra-realistic close-up of a 20-year-old blonde influencer with slightly wavy blonde hair, 8K resolution, natural creator-style photography. Final hyper-realistic close-up scene, wearing a white Prada tank top, blue jeans, and a visible DJI lapel microphone. Same home environment with neutral light wall and warm cozy interior lighting. Camera at eye level, close-up of face and upper shoulders, vertical 9:16 framing. Her face fills most of the frame creating intimacy and trust. Warm and genuine smile, friendly eyes, relaxed facial muscles, confident yet approachable. She looks happy, calm, and trustworthy — not posing. Looking directly at the lens with a slight natural head tilt, minimal movement. Her expression clearly suggests \"trust me, come with me, click the link, follow me\" — the exact second before or after a call to action. Soft and even light on the face, natural skin highlights, no harsh shadows, visible realistic skin texture. No cinematic lighting, pure creator realism. Smartphone/creator aesthetic, everything in focus, no blur, no bokeh, no HDR. Looks like a real final frame from a TikTok or Reel. Final hook moment of trust, high conversion potential, ideal for last frame of video, thumbnail, CTA in Stories, or remarketing impression.",
+            "videoUrl": "https://zayraai.com/images/prompts/prompt-ai-influencer-30.webp",
+            "thumbnailUrl": "https://zayraai.com/images/prompts/prompt-ai-influencer-30.webp"
         },
     {
             "id": "prompt-64",
@@ -816,7 +816,7 @@ function renderCards() {
     let filteredPrompts = [];
     
     if (currentFilter === 'all') {
-        // Show ALL 54 prompts
+        // Show ALL prompts
         filteredPrompts = promptsData;
     } else if (currentFilter === 'favorites') {
         filteredPrompts = promptsData.filter(prompt => favorites.includes(prompt.id));
@@ -861,6 +861,7 @@ function renderCards() {
 
     filteredPrompts.forEach(prompt => {
         const isFavorited = favorites.includes(prompt.id);
+        const hasVideo = prompt.videoUrl && prompt.videoUrl.toLowerCase().endsWith('.mp4');
         const cardHTML = `
             <div class="prompt-card" data-id="${prompt.id}">
                 <!-- YouTube Create Badge -->
@@ -878,9 +879,10 @@ function renderCards() {
                 <!-- Video / Thumbnail Media Container -->
                 <div class="card-media-container">
                     <img src="${prompt.thumbnailUrl}" alt="${prompt.title}" class="card-thumbnail">
+                    ${hasVideo ? `
                     <video class="card-video" loop muted playsinline preload="none">
                         <source src="${prompt.videoUrl}" type="video/mp4">
-                    </video>
+                    </video>` : ''}
                 </div>
                 
                 <div class="card-overlay"></div>
