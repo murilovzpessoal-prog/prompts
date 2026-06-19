@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <script>
+        if (localStorage.getItem('mvz_token') !== 'MVZ-PRO-2026') {
+            window.location.href = 'index.html';
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Biblioteca de Prompts Exclusivos da Comunidade MVZ. Copie prompts de alto impacto, assista aos movimentos e viralize seus vídeos.">
+    <title>Comunidade MVZ - Portal de Prompts</title>
+    <!-- Google Fonts: Outfit & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Lucide Icons for clean modern iconography -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+    <!-- Hero Banner Section (Full-width photo that blends into the page background) -->
+    <section class="hero-banner">
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Hero Info Section (Todos os elementos de escrita e métricas ficam aqui embaixo) -->
+    <section class="hero-info-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-header-flex">
+                    <span class="hero-badge"><i data-lucide="sparkles"></i> Material Exclusivo</span>
+                    <button class="logout-btn" id="logoutBtn" title="Sair da conta">
+                        <i data-lucide="log-out"></i>
+                        <span>Sair</span>
+                    </button>
+                </div>
+                <h1 class="hero-title">BIBLIOTECA DE PROMPTS</h1>
+                <p class="hero-subtitle">Copie a estrutura exata de prompts que geraram milhões de visualizações e crie vídeos virais em minutos.</p>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">150+</span>
+                        <span class="stat-label">Prompts Ativos</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">10k+</span>
+                        <span class="stat-label">Criadores</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">98.4%</span>
+                        <span class="stat-label">Taxa de Conversão</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Section -->
+    <main class="container">
+        <!-- Search & Filter Controls -->
+        <section class="controls-section">
+            <div class="search-box">
+                <i data-lucide="search" class="search-icon"></i>
+                <input type="text" id="searchInput" placeholder="Pesquisar por título ou descrição de prompt...">
+                <button class="clear-search" id="clearSearch" style="display: none;"><i data-lucide="x"></i></button>
+            </div>
+            
+            <div class="filter-container">
+                <div class="filter-scroll" id="filterContainer">
+                    <!-- Filters will be generated dynamically or kept static -->
+                    <button class="filter-chip active" data-category="all">Todos</button>
+                    <button class="filter-chip" data-category="apresentacao">Flow</button>
+                    <button class="filter-chip" data-category="destaque">Grok</button>
+                    <button class="filter-chip" data-category="ritmico">YouTube Create</button>
+                    <button class="filter-chip" data-category="selfie">Imagens</button>
+                    <button class="filter-chip" data-category="transicao">Transição</button>
+                    <button class="filter-chip" data-category="favorites"><i data-lucide="heart" class="favorite-icon-inline"></i> Favoritos</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prompt Cards Grid -->
+        <section class="prompt-grid-container">
+            <div class="prompt-grid" id="promptGrid">
+                <!-- Dynamic cards injected via app.js -->
+                <div class="loading-state">
+                    <div class="spinner"></div>
+                    <p>Carregando prompts incríveis...</p>
+                </div>
+            </div>
+            
+            <!-- Empty state when no prompts found -->
+            <div class="empty-state" id="emptyState" style="display: none;">
+                <i data-lucide="search-slash" class="empty-icon"></i>
+                <h3>Nenhum prompt encontrado</h3>
+                <p>Tente ajustar sua busca ou categoria para encontrar o que procura.</p>
+                <button class="btn btn-reset" id="resetFilters">Limpar Filtros</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <span class="logo-text">Comunidade <span>MVZ</span></span>
+                <p>Eleve o nível do seu conteúdo. Transforme visualizações em negócios com a nossa biblioteca de prompts premium.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Comunidade MVZ. Todos os direitos reservados. Desenvolvido com sofisticação.</p>
+        </div>
+    </footer>
+
+    <!-- Copy Toast Notification Popup -->
+    <div class="toast" id="copyToast">
+        <div class="toast-content">
+            <i data-lucide="check" class="toast-icon"></i>
+            <div class="toast-message">
+                <span class="toast-title">Copiado!</span>
+                <span class="toast-desc">Prompt copiado para a área de transferência.</span>
+            </div>
+        </div>
+        <div class="toast-progress"></div>
+    </div>
+
+    <!-- Main JavaScript Logic (Forced reload to update cached prompts list) -->
+    <script src="app.js?v=21"></script>
+    
+    <!-- Logout click handler -->
+    <script>
+        document.getElementById('logoutBtn').addEventListener('click', () => {
+            localStorage.removeItem('mvz_token');
+            window.location.href = 'index.html';
+        });
+    </script>
+</body>
+</html>
