@@ -1068,29 +1068,30 @@ function renderCards() {
     let filteredPrompts = [];
     
     if (currentFilter === 'all') {
-        // Show ALL prompts
-        filteredPrompts = promptsData;
+        // Show ALL prompts mixed: interleave videos and images
+        const videos = promptsData.filter(p => p.videoUrl && p.videoUrl.endsWith('.mp4'));
+        const images = promptsData.filter(p => p.videoUrl && !p.videoUrl.endsWith('.mp4'));
+        const mixed = [];
+        let vi = 0, ii = 0;
+        while (vi < videos.length || ii < images.length) {
+            if (vi < videos.length) mixed.push(videos[vi++]);
+            if (vi < videos.length) mixed.push(videos[vi++]);
+            if (ii < images.length) mixed.push(images[ii++]);
+            if (vi < videos.length) mixed.push(videos[vi++]);
+            if (ii < images.length) mixed.push(images[ii++]);
+        }
+        filteredPrompts = mixed;
     } else if (currentFilter === 'favorites') {
         filteredPrompts = promptsData.filter(prompt => favorites.includes(prompt.id));
     } else if (currentFilter === 'ritmico') {
         // Show ONLY prompts with the YouTube Create badge
         filteredPrompts = promptsData.filter(prompt => prompt.youtubeCreate);
-    } else {
-        // Show all prompts EXCEPT those with the YouTube Create badge (prompts 1 to 35)
-        const baseList = promptsData.filter(prompt => !prompt.youtubeCreate);
-        
-        // Reorder list deterministically based on currentFilter to simulate visual filtering
-        if (['influencer-academia', 'influencer', 'influencer-produto', 'influencer-corredora', 'influencer-podcast'].includes(currentFilter)) {
-            filteredPrompts = promptsData.filter(prompt => prompt.category === currentFilter);
-        } else {
-            if (currentFilter === 'apresentacao') { // Flow
-                filteredPrompts = [...baseList.slice(7), ...baseList.slice(0, 7)];
-            } else if (currentFilter === 'destaque') { // Grok
-                filteredPrompts = [...baseList.slice(15), ...baseList.slice(0, 15)];
-            } else if (currentFilter === 'transicao') { // Transição
-                filteredPrompts = [...baseList.slice(11), ...baseList.slice(0, 11)];
-            }
-        }
+    } else if (currentFilter === 'animacoes') {
+        // Show ONLY prompts that have video (.mp4)
+        filteredPrompts = promptsData.filter(prompt => prompt.videoUrl && prompt.videoUrl.endsWith('.mp4'));
+    } else if (currentFilter === 'imagens') {
+        // Show ONLY prompts that have images (.jpg, .png, etc.) - NOT videos
+        filteredPrompts = promptsData.filter(prompt => prompt.videoUrl && !prompt.videoUrl.endsWith('.mp4'));
     }
     
     // Apply Search filter
