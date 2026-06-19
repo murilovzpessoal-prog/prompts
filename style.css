@@ -256,7 +256,7 @@ img, video {
 .btn {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 0.5rem;
     padding: 0.6rem 1.2rem;
     border-radius: 9999px;
@@ -491,7 +491,7 @@ img, video {
 .hero-stats {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 2.5rem;
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid var(--border-glass);
@@ -601,7 +601,7 @@ img, video {
     cursor: pointer;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     border-radius: 50%;
     padding: 0.2rem;
     transition: var(--transition-fast);
@@ -626,7 +626,7 @@ img, video {
 
 .filter-scroll {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 0.75rem;
     overflow-x: auto;
@@ -729,7 +729,7 @@ img, video {
     letter-spacing: 0.05em;
     display: inline-flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 0.3rem;
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
@@ -740,7 +740,7 @@ img, video {
 .ytb-icon {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     width: 14px;
     height: 14px;
     color: #ff4a4a;
@@ -769,7 +769,7 @@ img, video {
     color: var(--text-gray-300);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     cursor: pointer;
     transition: var(--transition-fast);
 }
@@ -903,7 +903,7 @@ img, video {
     width: 100%;
     display: inline-flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 0.5rem;
     padding: 0.55rem 0.8rem;
     border-radius: 10px;
@@ -977,7 +977,7 @@ img, video {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 5rem 0;
     text-align: center;
 }
@@ -1136,7 +1136,7 @@ img, video {
     margin: 0 auto;
     padding: 0 1.5rem 3rem 1.5rem;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
     gap: 3rem;
     flex-wrap: wrap;
@@ -1302,7 +1302,7 @@ img, video {
 .login-body {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     min-height: 100vh;
     overflow: hidden;
     position: relative;
@@ -1359,7 +1359,7 @@ img, video {
 .login-wrapper {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
     padding: 1.5rem;
     position: relative;
@@ -1413,7 +1413,7 @@ img, video {
 /* Premium lock header with pulsing indicator */
 .card-icon-header {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin-bottom: 1.5rem;
 }
 
@@ -1426,7 +1426,7 @@ img, video {
     border: 1px solid rgba(255, 255, 255, 0.06);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .icon-pulse-ring {
@@ -1616,7 +1616,7 @@ img, video {
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 0.75rem;
     background: linear-gradient(135deg, var(--accent-teal), var(--accent-purple));
     color: var(--text-white);
