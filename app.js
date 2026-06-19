@@ -1068,15 +1068,13 @@ function renderCards() {
     let filteredPrompts = [];
     
     if (currentFilter === 'all') {
-        // Show ALL prompts mixed: interleave videos and images
-        const videos = promptsData.filter(p => p.videoUrl && p.videoUrl.endsWith('.mp4'));
-        const images = promptsData.filter(p => p.videoUrl && !p.videoUrl.endsWith('.mp4'));
+        // Show ALL prompts mixed: truly interleave videos and images
+        const isVideo = p => p.videoUrl && p.videoUrl.endsWith('.mp4');
+        const videos = promptsData.filter(p => isVideo(p));
+        const images = promptsData.filter(p => !isVideo(p));
         const mixed = [];
         let vi = 0, ii = 0;
         while (vi < videos.length || ii < images.length) {
-            if (vi < videos.length) mixed.push(videos[vi++]);
-            if (vi < videos.length) mixed.push(videos[vi++]);
-            if (ii < images.length) mixed.push(images[ii++]);
             if (vi < videos.length) mixed.push(videos[vi++]);
             if (ii < images.length) mixed.push(images[ii++]);
         }
@@ -1087,10 +1085,10 @@ function renderCards() {
         // Show ONLY prompts with the YouTube Create badge
         filteredPrompts = promptsData.filter(prompt => prompt.youtubeCreate);
     } else if (currentFilter === 'animacoes') {
-        // Show ONLY prompts that have video (.mp4)
-        filteredPrompts = promptsData.filter(prompt => prompt.videoUrl && prompt.videoUrl.endsWith('.mp4'));
+        // Show ONLY prompts that have video (.mp4) - excluding YouTube Create
+        filteredPrompts = promptsData.filter(prompt => prompt.videoUrl && prompt.videoUrl.endsWith('.mp4') && !prompt.youtubeCreate);
     } else if (currentFilter === 'imagens') {
-        // Show ONLY prompts that have images (.jpg, .png, etc.) - NOT videos
+        // Show ONLY prompts that have images (NOT .mp4 videos)
         filteredPrompts = promptsData.filter(prompt => prompt.videoUrl && !prompt.videoUrl.endsWith('.mp4'));
     }
     
