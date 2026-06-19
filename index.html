@@ -20,19 +20,29 @@
     <link rel="stylesheet" href="style.css?v=3">
 </head>
 <body class="login-body">
+    <!-- Decorative Tech Grid & Glow Orbs -->
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+
     <!-- Login Page Wrap -->
     <div class="login-wrapper">
         <div class="login-card" id="loginCard">
+            <!-- Glowing top accent bar -->
+            <div class="card-glow-bar"></div>
+
+            <!-- Pulsing Lock Header -->
+            <div class="card-icon-header">
+                <div class="icon-pulse-wrapper">
+                    <div class="icon-pulse-ring"></div>
+                    <div class="icon-pulse-dot"></div>
+                    <i data-lucide="lock" class="lock-icon"></i>
+                </div>
+            </div>
+
             <!-- Brand Logo -->
             <div class="login-brand">
                 <span class="logo-text">Comunidade <span>MVZ</span></span>
                 <p class="login-subtitle">Biblioteca de Prompts Premium</p>
-            </div>
-            
-            <!-- Restrict Access Badge -->
-            <div class="restrict-badge">
-                <i data-lucide="shield-alert"></i>
-                <span>Acesso Restrito para Membros</span>
             </div>
 
             <!-- Login Form -->
@@ -44,11 +54,15 @@
                         <input 
                             type="text" 
                             id="tokenInput" 
-                            placeholder="Digite seu token de acesso (ex: #MVZ01)" 
+                            placeholder="Digite seu token de acesso" 
                             required 
                             autocomplete="off"
                             spellcheck="false"
                         >
+                        <button type="button" class="paste-btn" id="pasteBtn" title="Colar do clipboard">
+                            <i data-lucide="clipboard"></i>
+                            <span>Colar</span>
+                        </button>
                     </div>
                 </div>
 
@@ -126,6 +140,20 @@
         loginCard.addEventListener('animationend', (e) => {
             if (e.animationName === 'shake') {
                 loginCard.classList.remove('shake');
+            }
+        });
+
+        // Paste button functionality
+        const pasteBtn = document.getElementById('pasteBtn');
+        pasteBtn.addEventListener('click', async () => {
+            try {
+                const text = await navigator.clipboard.readText();
+                tokenInput.value = text;
+                tokenInput.focus();
+            } catch (err) {
+                console.error('Falha ao ler o clipboard: ', err);
+                // Fallback: focus input for manual pasting
+                tokenInput.focus();
             }
         });
     </script>
