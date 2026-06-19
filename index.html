@@ -59,10 +59,7 @@
                             autocomplete="off"
                             spellcheck="false"
                         >
-                        <button type="button" class="paste-btn" id="pasteBtn" title="Colar do clipboard">
-                            <i data-lucide="clipboard"></i>
-                            <span>Colar</span>
-                        </button>
+
                     </div>
                 </div>
 
@@ -143,19 +140,6 @@
             }
         });
 
-        // Paste button functionality
-        const pasteBtn = document.getElementById('pasteBtn');
-        pasteBtn.addEventListener('click', async () => {
-            try {
-                const text = await navigator.clipboard.readText();
-                tokenInput.value = text;
-                tokenInput.focus();
-            } catch (err) {
-                console.error('Falha ao ler o clipboard: ', err);
-                // Fallback: focus input for manual pasting
-                tokenInput.focus();
-            }
-        });
     </script>
 </body>
 </html>
