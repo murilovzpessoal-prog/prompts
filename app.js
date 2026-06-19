@@ -1085,8 +1085,8 @@ function renderCards() {
         // Show ONLY prompts with the YouTube Create badge
         filteredPrompts = promptsData.filter(prompt => prompt.youtubeCreate);
     } else if (currentFilter === 'animacoes') {
-        // Show ONLY prompts that have video (.mp4) - excluding YouTube Create
-        filteredPrompts = promptsData.filter(prompt => prompt.videoUrl && prompt.videoUrl.endsWith('.mp4') && !prompt.youtubeCreate);
+        // Show ALL prompts that have video (.mp4) - including YouTube Create
+        filteredPrompts = promptsData.filter(prompt => prompt.videoUrl && prompt.videoUrl.endsWith('.mp4'));
     } else if (currentFilter === 'imagens') {
         // Show ONLY prompts that have images (NOT .mp4 videos)
         filteredPrompts = promptsData.filter(prompt => prompt.videoUrl && !prompt.videoUrl.endsWith('.mp4'));

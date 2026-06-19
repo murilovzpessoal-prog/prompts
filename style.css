@@ -628,10 +628,9 @@ img, video {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 0.75rem;
-    overflow-x: auto;
     padding: 4px 4px 8px 4px;
-    scrollbar-width: none; /* Firefox */
 }
 
 .filter-scroll::-webkit-scrollbar {
