@@ -1251,8 +1251,8 @@ const promptsData = [
             "category": "influencer",
             "desc": "Troque a roupa e o cenário da sua influenciadora. Preencha os campos entre colchetes.",
             "promptText": "[Link da foto original da modelo], cinematic fashion editorial photography, full-body portrait, the model is seamlessly integrated inside [DESCREVA O NOVO CENÁRIO], wearing [DESCREVA A ROUPA], perfect interaction with environment, realistic shadows and light reflections on her skin and clothing, ambient occlusion, shot on 85mm anamorphic lens, photorealistic, hyper-detailed, highly realistic textures, 8k resolution, clean and professional look --ar 9:16",
-            "videoUrl": "assets/troca-roupa-completa.jpg",
-            "thumbnailUrl": "assets/troca-roupa-completa.jpg"
+            "videoUrl": "assets/troca-roupa-cenario.jpg",
+            "thumbnailUrl": "assets/troca-roupa-cenario.jpg"
         }
 ];
 
