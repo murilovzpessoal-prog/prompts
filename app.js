@@ -1253,6 +1253,186 @@ const promptsData = [
             "promptText": "[Link da foto original da modelo], cinematic fashion editorial photography, full-body portrait, the model is seamlessly integrated inside [DESCREVA O NOVO CENÁRIO], wearing [DESCREVA A ROUPA], perfect interaction with environment, realistic shadows and light reflections on her skin and clothing, ambient occlusion, shot on 85mm anamorphic lens, photorealistic, hyper-detailed, highly realistic textures, 8k resolution, clean and professional look --ar 9:16",
             "videoUrl": "assets/troca-roupa-cenario-2.jpg",
             "thumbnailUrl": "assets/troca-roupa-cenario-2.jpg"
+        },
+    {
+            "id": "prompt-138",
+            "title": "Influencer",
+            "category": "influenciadoras",
+            "desc": "Baixe a imagem desta influenciadora para usar como referência.",
+            "promptText": "",
+            "videoUrl": "assets/influencer-01.jpg",
+            "thumbnailUrl": "assets/influencer-01.jpg"
+        },
+    {
+            "id": "prompt-139",
+            "title": "Influencer",
+            "category": "influenciadoras",
+            "desc": "Baixe a imagem desta influenciadora para usar como referência.",
+            "promptText": "",
+            "videoUrl": "assets/influencer-02.jpg",
+            "thumbnailUrl": "assets/influencer-02.jpg"
+        },
+    {
+            "id": "prompt-140",
+            "title": "Influencer",
+            "category": "influenciadoras",
+            "desc": "Baixe a imagem desta influenciadora para usar como referência.",
+            "promptText": "",
+            "videoUrl": "assets/influencer-03.jpg",
+            "thumbnailUrl": "assets/influencer-03.jpg"
+        },
+    {
+            "id": "prompt-141",
+            "title": "Influencer",
+            "category": "influenciadoras",
+            "desc": "Baixe a imagem desta influenciadora para usar como referência.",
+            "promptText": "",
+            "videoUrl": "assets/influencer-04.jpg",
+            "thumbnailUrl": "assets/influencer-04.jpg"
+        },
+    {
+            "id": "prompt-142",
+            "title": "Influencer",
+            "category": "influenciadoras",
+            "desc": "Baixe a imagem desta influenciadora para usar como referência.",
+            "promptText": "",
+            "videoUrl": "assets/influencer-05.jpg",
+            "thumbnailUrl": "assets/influencer-05.jpg"
+        },
+    {
+            "id": "prompt-143",
+            "title": "Influencer",
+            "category": "influenciadoras",
+            "desc": "Baixe a imagem desta influenciadora para usar como referência.",
+            "promptText": "",
+            "videoUrl": "assets/influencer-06.jpg",
+            "thumbnailUrl": "assets/influencer-06.jpg"
+        },
+    {
+            "id": "prompt-144",
+            "title": "Influencer",
+            "category": "influenciadoras",
+            "desc": "Baixe a imagem desta influenciadora para usar como referência.",
+            "promptText": "",
+            "videoUrl": "assets/influencer-07.jpg",
+            "thumbnailUrl": "assets/influencer-07.jpg"
+        },
+    {
+            "id": "prompt-145",
+            "title": "Influencer",
+            "category": "influenciadoras",
+            "desc": "Baixe a imagem desta influenciadora para usar como referência.",
+            "promptText": "",
+            "videoUrl": "assets/influencer-08.jpg",
+            "thumbnailUrl": "assets/influencer-08.jpg"
+        },
+    {
+            "id": "prompt-146",
+            "title": "Influencer",
+            "category": "influenciadoras",
+            "desc": "Baixe a imagem desta influenciadora para usar como referência.",
+            "promptText": "",
+            "videoUrl": "assets/influencer-09.jpg",
+            "thumbnailUrl": "assets/influencer-09.jpg"
+        },
+    {
+            "id": "prompt-147",
+            "title": "Influencer",
+            "category": "influenciadoras",
+            "desc": "Baixe a imagem desta influenciadora para usar como referência.",
+            "promptText": "",
+            "videoUrl": "assets/influencer-10.jpg",
+            "thumbnailUrl": "assets/influencer-10.jpg"
+        },
+    {
+            "id": "prompt-148",
+            "title": "Influencer",
+            "category": "influenciadoras",
+            "desc": "Baixe a imagem desta influenciadora para usar como referência.",
+            "promptText": "",
+            "videoUrl": "assets/influencer-11.jpg",
+            "thumbnailUrl": "assets/influencer-11.jpg"
+        },
+    {
+            "id": "prompt-149",
+            "title": "Influencer",
+            "category": "influenciadoras",
+            "desc": "Baixe a imagem desta influenciadora para usar como referência.",
+            "promptText": "",
+            "videoUrl": "assets/influencer-12.jpg",
+            "thumbnailUrl": "assets/influencer-12.jpg"
+        },
+    {
+            "id": "prompt-150",
+            "title": "Influencer",
+            "category": "influenciadoras",
+            "desc": "Baixe a imagem desta influenciadora para usar como referência.",
+            "promptText": "",
+            "videoUrl": "assets/influencer-13.jpg",
+            "thumbnailUrl": "assets/influencer-13.jpg"
+        },
+    {
+            "id": "prompt-151",
+            "title": "Influencer",
+            "category": "influenciadoras",
+            "desc": "Baixe a imagem desta influenciadora para usar como referência.",
+            "promptText": "",
+            "videoUrl": "assets/influencer-14.jpg",
+            "thumbnailUrl": "assets/influencer-14.jpg"
+        },
+    {
+            "id": "prompt-152",
+            "title": "Influencer",
+            "category": "influenciadoras",
+            "desc": "Baixe a imagem desta influenciadora para usar como referência.",
+            "promptText": "",
+            "videoUrl": "assets/influencer-15.jpg",
+            "thumbnailUrl": "assets/influencer-15.jpg"
+        },
+    {
+            "id": "prompt-153",
+            "title": "Influencer",
+            "category": "influenciadoras",
+            "desc": "Baixe a imagem desta influenciadora para usar como referência.",
+            "promptText": "",
+            "videoUrl": "assets/influencer-16.jpg",
+            "thumbnailUrl": "assets/influencer-16.jpg"
+        },
+    {
+            "id": "prompt-154",
+            "title": "Influencer",
+            "category": "influenciadoras",
+            "desc": "Baixe a imagem desta influenciadora para usar como referência.",
+            "promptText": "",
+            "videoUrl": "assets/influencer-17.jpg",
+            "thumbnailUrl": "assets/influencer-17.jpg"
+        },
+    {
+            "id": "prompt-155",
+            "title": "Influencer",
+            "category": "influenciadoras",
+            "desc": "Baixe a imagem desta influenciadora para usar como referência.",
+            "promptText": "",
+            "videoUrl": "assets/influencer-18.jpg",
+            "thumbnailUrl": "assets/influencer-18.jpg"
+        },
+    {
+            "id": "prompt-156",
+            "title": "Influencer",
+            "category": "influenciadoras",
+            "desc": "Baixe a imagem desta influenciadora para usar como referência.",
+            "promptText": "",
+            "videoUrl": "assets/influencer-19.jpg",
+            "thumbnailUrl": "assets/influencer-19.jpg"
+        },
+    {
+            "id": "prompt-157",
+            "title": "Influencer",
+            "category": "influenciadoras",
+            "desc": "Baixe a imagem desta influenciadora para usar como referência.",
+            "promptText": "",
+            "videoUrl": "assets/influencer-20.jpg",
+            "thumbnailUrl": "assets/influencer-20.jpg"
         }
 ];
 
@@ -1312,6 +1492,9 @@ function renderCards() {
     } else if (currentFilter === 'trocas') {
         // Show ONLY Trocas cards
         filteredPrompts = promptsData.filter(prompt => prompt.category === 'trocas');
+    } else if (currentFilter === 'influenciadoras') {
+        // Show ONLY Influenciadoras cards
+        filteredPrompts = promptsData.filter(prompt => prompt.category === 'influenciadoras');
     }
     
     // Apply Search filter
@@ -1346,8 +1529,8 @@ function renderCards() {
                     <span>YTB</span>
                 </div>` : ''}
                 
-                <!-- Favorite Heart Button / Download Button for Ambientes -->
-                ${prompt.category === 'ambientes' ? `
+                <!-- Favorite Heart Button / Download Button for Ambientes and Influenciadoras -->
+                ${(prompt.category === 'ambientes' || prompt.category === 'influenciadoras') ? `
                 <button class="favorite-btn download-action" aria-label="Baixar imagem" onclick="downloadImage(event, '${prompt.videoUrl}', '${prompt.title}')">
                     <i data-lucide="download"></i>
                 </button>` : `
@@ -1370,10 +1553,11 @@ function renderCards() {
                 <div class="card-content">
                     <h3 class="card-title">${prompt.title}</h3>
                     <p class="card-desc">${prompt.desc}</p>
+                    ${prompt.category !== 'influenciadoras' ? `
                     <button class="btn-copy-prompt" onclick="copyPromptText(event, \`${escapePromptString(prompt.promptText)}\`)">
                         <i data-lucide="copy"></i>
                         <span>Copiar Prompt</span>
-                    </button>
+                    </button>` : ''}
                 </div>
             </div>
         `;
