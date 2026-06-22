@@ -800,6 +800,13 @@ img, video {
     transform: scale(0.8);
 }
 
+.favorite-btn.download-action:hover {
+    background: rgba(5, 244, 183, 0.25);
+    border-color: rgba(5, 244, 183, 0.4);
+    color: var(--accent-teal);
+    box-shadow: 0 0 12px rgba(5, 244, 183, 0.25);
+}
+
 /* Background Media Container (HTML5 Video) */
 .card-media-container {
     position: absolute;

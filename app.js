@@ -1307,10 +1307,14 @@ function renderCards() {
                     <span>YTB</span>
                 </div>` : ''}
                 
-                <!-- Favorite Heart Button -->
+                <!-- Favorite Heart Button / Download Button for Ambientes -->
+                ${prompt.category === 'ambientes' ? `
+                <button class="favorite-btn download-action" aria-label="Baixar imagem" onclick="downloadImage(event, '${prompt.videoUrl}', '${prompt.title}')">
+                    <i data-lucide="download"></i>
+                </button>` : `
                 <button class="favorite-btn ${isFavorited ? 'favorited' : ''}" aria-label="Favoritar prompt" onclick="toggleFavorite(event, '${prompt.id}')">
                     <i data-lucide="heart"></i>
-                </button>
+                </button>`}
                 
                 <!-- Video / Thumbnail Media Container -->
                 <div class="card-media-container">
@@ -1319,10 +1323,6 @@ function renderCards() {
                     <video class="card-video" loop muted playsinline preload="none">
                         <source src="${prompt.videoUrl}" type="video/mp4">
                     </video>` : ''}
-                    ${prompt.category === 'ambientes' ? `
-                    <button class="download-btn" onclick="downloadImage(event, '${prompt.videoUrl}', '${prompt.title}')" aria-label="Baixar imagem">
-                        <i data-lucide="download"></i>
-                    </button>` : ''}
                 </div>
                 
                 <div class="card-overlay"></div>
